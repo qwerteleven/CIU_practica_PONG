@@ -1,5 +1,7 @@
 # CIU practica PONG
 
+![](animacion.gif)
+
 ```
 Autor Leopoldo lopez reveron 
 Escuela de ingeniería informática
