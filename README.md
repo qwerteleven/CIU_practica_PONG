@@ -6,6 +6,14 @@ Escuela de ingeniería informática
 Universidad de las palmas de Gran Canaria
 ```
 
+# Requisitos
+
+```
+ Para la ejecucion en processing es necesesario instalar la libreria de sonidos
+ oficial de processing
+
+```
+
 # Controles:
 ```
 Para empezar la partida se pulsa la barra espaciadora
@@ -61,6 +69,9 @@ Control de juego:
   
   Para resolver el problema del uso simultaneo de varias teclas, se utiliza un sistema de mascara donde 
   periódicamente se consulta el estado de las teclas, evitando de esta forma el bloqueo que genera dejar una tecla pulsada
+  
+  Para el movimiento inicial aleatorio se ha definido la imposibilidad de bolas con una velocidad mayor a 10 pixeles por frame,
+  y que el incremento de la coordenada x sea 0, lo cual imposibilitaria el juego
 
 ```
 
@@ -80,9 +91,6 @@ Control de juego:
   - ## Definición de especificación del proyecto
   - [Guion practica](https://ncvt-aep.ulpgc.es/cv/ulpgctp21/pluginfile.php/412240/mod_resource/content/37/CIU_Pr_cticas.pdf)
 
-
-
-muestre el resultado con un gif animado.
 
 
 
